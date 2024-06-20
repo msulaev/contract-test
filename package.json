@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:provider": "cross-env PORT=3001 node provider/provider-service.js"
+    "start:provider": "cross-env PORT=3001 node provider/provider-service.js",
+    "test:web:consumer": "jest consumer-web/consumer-contract.spec.js"
   },
   "author": "",
   "license": "ISC",
